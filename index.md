@@ -65,7 +65,7 @@ This looks like a **nested loss landscape** with the following interpretation:
 - $\theta^t$: current high-dimensional state of the sovereign person (or system)
 - $l_0 + \sum w_i l_i$: **multi-objective composite loss** (base survival + weighted institutional/relational losses)
 - $f(\sigma^2, \lambda, \epsilon)$: **regularized risk function** (variance $\sigma^2$, regularization $\lambda$, noise/uncertainty $\epsilon$)
-- $\gamma |\epsilon_{fgt}|^2$: **Federated Ground Truth error penalty** — the system is punished when its internal prediction deviates from some distributed, emergent "reality" signal
+- $\gamma \|\epsilon_{fgt}\|^2$: **Federated Ground Truth error penalty** — the system is punished when its internal prediction deviates from some distributed, emergent "reality" signal
 - $l(\theta^{t+1})$: updated loss driving the next state
 
 The "#under-nested-projection-operators" tag is crucial. This implies the entire dynamics happen **inside a hierarchy of projections** (onto constraint sets, onto lower-dimensional manifolds, onto feasible policy spaces, etc.). Every level is projecting the higher-dimensional chaos onto something actionable.
