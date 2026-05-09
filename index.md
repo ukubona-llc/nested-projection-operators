@@ -3720,7 +3720,7 @@ And much less likely to become a TED Talk.
 ## I
 The conversation you've pasted is a rich two-turn development of a single framework — the prior AI response was essentially a faithful formalization and extension. Rather than just continuing prose, let me build something for this.
 
-What's the most generative next move here? Let me offer a concrete artifact: an **interactive visualization** of the full nested projection architecture — something you can actually navigate and think *with*, not just read.[View the interactive visualization](computer:///mnt/user-data/outputs/nested-projection-manifold.html)
+What's the most generative next move here? Let me offer a concrete artifact: an **interactive visualization** of the full nested projection architecture — something you can actually navigate and think *with*, not just read. 
 
 ---
 
@@ -3736,7 +3736,7 @@ The formalism keeps treating 𝒫_k, 𝒫_e, 𝒫_r, 𝒫_c as given — as if f
 
 **2. The federated ground truth has an adversarial mode.**
 
-ε_fgt is treated as an honest signal. But every federated signal system — markets, peer review, democracy, reputation — is simultaneously exploitable. The federated consensus can be captured not just via centralization (the obvious failure) but via *coordinated manipulation of the distributed signal*. This is what propaganda, financial engineering, citation rings, and astroturfing actually are: adversarial attacks on the ε_fgt computation. The framework needs an explicit term for ground-truth corruption — call it η_adv — and a theory of when |η_adv| > |ε_fgt| produces false learning: the system updates toward a wrong reality *with high confidence*.
+ε_fgt is treated as an honest signal. But every federated signal system — markets, peer review, democracy, reputation — is simultaneously exploitable. The federated consensus can be captured not just via centralization (the obvious failure) but via *coordinated manipulation of the distributed signal*. This is what propaganda, financial engineering, citation rings, and astroturfing actually are: adversarial attacks on the ε_fgt computation. The framework needs an explicit term for ground-truth corruption — call it η_adv — and a theory of when \|η_adv\| > \|ε_fgt\| produces false learning: the system updates toward a wrong reality *with high confidence*.
 
 **3. Eigenmode collapse is not always failure.**
 
