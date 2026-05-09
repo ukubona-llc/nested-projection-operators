@@ -3736,7 +3736,7 @@ The formalism keeps treating 𝒫_k, 𝒫_e, 𝒫_r, 𝒫_c as given — as if f
 
 **2. The federated ground truth has an adversarial mode.**
 
-ε_fgt is treated as an honest signal. But every federated signal system — markets, peer review, democracy, reputation — is simultaneously exploitable. The federated consensus can be captured not just via centralization (the obvious failure) but via *coordinated manipulation of the distributed signal*. This is what propaganda, financial engineering, citation rings, and astroturfing actually are: adversarial attacks on the ε_fgt computation. The framework needs an explicit term for ground-truth corruption — call it η_adv — and a theory of when \|η_adv\| > \|ε_fgt\| produces false learning: the system updates toward a wrong reality *with high confidence*.
+ε_fgt is treated as an honest signal. But every federated signal system — markets, peer review, democracy, reputation — is simultaneously exploitable. The federated consensus can be captured not just via centralization (the obvious failure) but via *coordinated manipulation of the distributed signal*. This is what propaganda, financial engineering, citation rings, and astroturfing actually are: adversarial attacks on the ε_fgt computation. The framework needs an explicit term for ground-truth corruption — call it $\eta_adv$ — and a theory of when $\|\eta_adv\|$ > $\|ε_fgt\|$ produces false learning: the system updates toward a wrong reality *with high confidence*.
 
 **3. Eigenmode collapse is not always failure.**
 
